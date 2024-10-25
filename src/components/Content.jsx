@@ -68,7 +68,7 @@ export function Content() {
     <>
       <Header
         title='Mulheres em Tech Brasil'
-        subtitle='Conheça personalidades femininas que estão transformando a tecnologia no Brasil'
+        subtitle='Personalidades femininas que estão transformando a tecnologia no Brasil'
         image={listaImg}
       />
       <div className={styles.projectsContainer}>
@@ -98,25 +98,25 @@ export function Content() {
         <form  className={styles.form} onSubmit={handleCreateMessage}>
           <input 
             onChange={handleInputValueName} 
-            placeholder="Digite o nome"
+            placeholder="Nome"
             value={name}
             className={styles.formInput}
           />
           <textarea 
             onChange={handleInputValueImage} 
-            placeholder="Digite o link da imagem"
+            placeholder="Link da imagem"
             value={image}
             className={styles.formTextArea}
           />
           <textarea 
             onChange={handleInputValueminibio} 
-            placeholder="Digite a minibiografia"
+            placeholder="Minibiografia"
             value={minibio}
             className={styles.formTextArea}
           />
           <textarea 
             onChange={handleInputValueQuote} 
-            placeholder="Digite a citação"
+            placeholder="Citação"
             value={quote}
             className={styles.formTextArea}
           />
