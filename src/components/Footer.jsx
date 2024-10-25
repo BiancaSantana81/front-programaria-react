@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <div className={styles.footerContainer}>
       <p className={styles.footerText}>
-        Back-end desenvolvido por Bianca Santana ♡
+               Back-end desenvolvido por Bianca Santana ♡
         <br />
         Feito com ♡ por Simara Conceição para PrograMaria.
       </p>
